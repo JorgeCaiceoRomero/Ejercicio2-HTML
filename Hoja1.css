@@ -1,0 +1,52 @@
+H1 {
+
+
+text-align : center;
+
+font-family: Segoe UI, Segoe, Optima, Candara, Calibri, Arial, sans-serif;
+color: #B72304 ;
+font-size: 3em;
+word-spacing: 1.0em;
+letter-spacing: 0.3;
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+fieldset{
+    border-color: darkblue;
+    border-width: 3px;
+    border-radius: 24px;
+    stroke-linecap: round; 
+}
+
+.cabecera{
+    width: 30%;   
+    float: left;
+    line-height: 35px;
+}
+.entradas{
+    width: 20%;
+    float: left;  
+    line-height: 35px;   
+}
+.conjuntoDer{
+    width: 50%;
+    float: right;
+}
+.conjuntoIzq{
+    width: 30%;
+    float: left;
+}
+
+.conjuntoCentro{
+    float: center;
+}
+.conjunto{
+    width: 45%;
+}
+legend{
+    color: orange;
+}

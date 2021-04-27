@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link href="Hoja1.css"
+      rel="stylesheet" type="text/css">
+        <title>Curso Serbatic</title>
+    </head>
+<body>
+    <h1>Curso Serbatic</h1>
+    <h2>Formulario de registro</h2>
+<form>
+    <fieldset>
+        <legend>DATOS PERSONALES</legend>
+        <div class="conjunto">
+            <div class="cabecera">
+                <div><label>Nombre</label> </div>
+                <div><label>Primer Apellido</label></div> 
+                <div><label>Segundo Apellido</label></div> 
+                <div><label>Fecha de Nacimiento</label> </div>
+            </div>
+            <div class="entradas">
+                <div><input type= “text”></div>
+                <div><input type= “text”></div>              
+                <div><input type= “text”></div>
+                <input type="date" id="start" name="trip-start"">                               
+            </div>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>DOMICILIO</legend>
+        <div>
+            <div class="conjuntoIzq">
+                <div class="cabecera">
+                    <div><label>País</label> </div>
+                    <div><label>Dirección</label></div> 
+                    <div><label>Localidad</label></div> 
+                </div>
+                <div class="entradas">
+                    <div><select name="paises">
+
+                        <option>Alemania </option>
+                        <option selected="yes">España</option>
+                        <option>Holanda</option>
+                        <option>Estonia</option>
+                        <option>Malta</option>
+                        <option>Polonia</option>
+                        <option>Portugal</option>
+                        <option>Lituania</option>
+
+                    
+                    </select></div>
+                    <div><input type= “text”></div>              
+                    <div><input type= “text”></div>
+                                                  
+                </div>
+            </div>
+            <div class="conjuntoDer">
+                <div class="cabecera">
+                    <div><label>Código postal</label> </div>
+                    <div><label>Provincia</label></div>
+                </div>
+                <div class="entradas">
+                    <div><input type= “text” maxlength="5"></div>
+                    <div><select name="provincias">
+
+                        <option>León </option>
+                        <option selected="yes">Palencia</option>
+                        <option>Burgos</option>
+                        <option>Zamora</option>
+                        <option>Valladolid</option>
+                        <option>Soria</option>
+                        <option>Salamanca</option>
+                        <option>Ávila</option>
+                        <option>Segovia</option>
+                    
+                    </select></div>                                                             
+                </div>
+            </div>
+    </fieldset>
+    <fieldset>
+        <legend>DATOS DE CONTACTO</legend>
+        <div class="conjunto">
+            <div class="cabecera">
+                <div><label>Teléfono</label> </div>
+                <div><label>Móvil</label></div> 
+                <div><label>Email</label></div> 
+            </div>
+            <div class="entradas">
+                <div><input type= “text” maxlength="9"></div>
+                <div><input type= “text” maxlength="9"></div>              
+                <div><input type= “text”></div>                           
+            </div>
+        </div>
+    </fieldset>
+    
+    <div class="conjuntoCentro" float="center">
+        <label><input type="checkbox" id="cbox1" value="checkbox"> Acepto el acuerdo de servicios, la declaración de privacidad y la declaración de uso de cookies</label><br>
+        <div><input type="reset" value="Limpiar"></div>
+        <div><button>Registrar</button></div>
+    </div>
+</form>
+</body>
+
